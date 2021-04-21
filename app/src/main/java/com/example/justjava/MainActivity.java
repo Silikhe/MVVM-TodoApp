@@ -13,7 +13,9 @@ import java.text.NumberFormat;
  */
 public class MainActivity extends AppCompatActivity {
 
-    @Override
+      int quantity = 2;
+
+      @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -23,8 +25,20 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        display(1);
+        display(quantity);
+        displayPrice(quantity * 5);
     }
+
+
+      public void increment(View view) {
+          quantity = quantity + 1;
+          display(quantity);
+       }
+
+      public void decrement(View view) {
+          quantity = quantity - 1;
+          display(quantity);
+      }
 
 
       /**
