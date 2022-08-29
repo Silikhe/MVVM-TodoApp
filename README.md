@@ -42,6 +42,7 @@ It is a bridge between the View and Model(business logic). It does not have any 
 
 ## Project Structure
 <img width="508" alt="project-structure-mvvm-blog" src="https://user-images.githubusercontent.com/65366942/187281776-35917e89-7507-4497-9a32-78a58794ceee.png">
+
 ### Library reference resources:
 1. RxJava2: https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 2. Dagger2: https://github.com/MindorksOpenSource/android-dagger2-example
